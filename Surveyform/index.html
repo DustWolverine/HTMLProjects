@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="#" id="form">
+        <div class="form-control">
+            <label for="name"id="label-name">
+                Name
+            </label>
+            <input type="text" id="name" placeholder="please enter your name"/>
+        </div>
+        <div class="form-control">
+            <label for="email" id="email">
+                Email
+            </label>
+            <input type="email" id="email" placeholder="please enter your email"/>
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="number" id="age" placeholder="please enter your age" min="15" max="30"/>
+        </div>
+        <div class="form-control">
+            <label for="role" id="lable-role">
+                Which Thing specify you the most
+            </label>
+            <select name="role" id="role">
+                <option value="professional">Professional</option>
+                <option value="intern">Intern</option>
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="recomendation" id="lable-recomendation">
+                Would you like to suggest us to your friend?
+            </label>
+            <label for="recomendation">
+                   <input type="radio" name="recomendation" id="recomendation-1"/>Yes
+            </label>
+             <label for="recomendation">
+                <input type="radio" name="recomendation" id="recomendation-2"/>No
+             </label>
+            <label for="recomendation">
+                <input type="radio" name="recomendation" id="recomendation-3"/> Maybe
+            </label>
+        </div>
+        <div class="form-control">
+            <label>Languages and Framwork Knowm
+                <small>(check as many you know)</small>
+            </label>
+            <label for="input-1">
+                <input type="checkbox" name="input"/>C
+
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>C++
+            </label>
+            <label for="input-3"></label>
+                <input type="checkbox" name="input"/>Java
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>Python
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>Django
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>Spring Boot
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>Node Js
+            </label>
+            <label for="input-2"></label>
+                <input type="checkbox" name="input"/>.Net
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here ">
+                
+            </textarea>
+        </div>
+
+        <button type="submit" >Submit</button>
+    </form>
+
+</body>
+</html>
